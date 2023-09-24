@@ -82,15 +82,15 @@ h1, h2, h3, h4, h5, p{color: whitesmoke; padding-bottom: 30px;}
 
     .hamburger{
         display: block;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px; /*30px  both*/
         /* border: 1px solid red; */
         position: absolute;
         top: 40px;
         right: 30px;
         
     }
-    .hamburger span{background: whitesmoke; height: 3px; width: 100%;display: block;margin-bottom: 5px;}
+    .hamburger span{background: whitesmoke; height: 5px; width: 100%;display: block;margin-bottom: 7px;} /*meno 2 tutte e due*/
 }
 
 
@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5, p{color: whitesmoke; padding-bottom: 30px;}
 .hero__content p{color: #fff;} /*#fff*/
 
 
+@media (max-width: 1092px){
+    .button{height: 90px; padding: 35px 20px;text-align: center;}
+    
+}
 
 
 
