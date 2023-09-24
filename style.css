@@ -99,10 +99,10 @@ h1, h2, h3, h4, h5, p{color: whitesmoke; padding-bottom: 30px;}
 /* ! Hero */
 .hero{
     /* background: #000; */
-    height: 600px;
+    height: 100vh;
     display: flex; width: 100%;align-items: center;
     background:  linear-gradient(210deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-     url("BlackAppleImage.png") no-repeat center center; /*217deg*/
+     url("BlackAppleImage.png") no-repeat center center; /*217deg*/ /*BlackAppleImage.png*/
     background-size: cover;
 }
 
