@@ -5,7 +5,7 @@ body{font-family: 'Inter', sans-serif;font-size: 16px;background-color: #000;}
 
 a{text-decoration: none;}
 
-h1, h2, h3, h4, h5, p{color: #fff; padding-bottom: 30px;}
+h1, h2, h3, h4, h5, p{color: whitesmoke; padding-bottom: 30px;}
 
 .big-text{font-size: 70px;font-weight: 900;}
 .med-text{font-size: 40px;}
@@ -112,10 +112,11 @@ h1, h2, h3, h4, h5, p{color: #fff; padding-bottom: 30px;}
     max-width: 1350px;
     margin: 0 auto;
     padding: 30px;
+    
 }
 
 .hero__content h1,
-.hero__content p{color: #000;} /*#fff*/
+.hero__content p{color: #fff;} /*#fff*/
 
 
 
