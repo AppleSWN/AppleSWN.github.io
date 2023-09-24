@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>ASW Page</title>
+    
+    <link rel="icon" href="apple.ico" type="image/icon type">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- lheader>.logo
+    .menu>li*3 -->
+    
+    
+    <div class="header">
+        <div class="logo">
+            <img class="appleL" src="apple.ico" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Scripts</a></li>
+            <li><a href="">Information</a></li>
+        </ul>
+        <div class="cta">
+            <a href="" class="button"> Discord</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero__content">
+            <p class="intro-text">By Apple</p>
+            <h1 class="big-text">Apple Script World</h1>   <!--Titolo Della Mia Pagina Web -->
+            <a href="" class="button">Discover More</a>
+        </div>
+    </div>
+    
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script>
+        $( document ).ready(function() {
+
+            $( ".hamburger" ).on('click', function() {
+                $(".menu").toggleClass("menu--open");
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>

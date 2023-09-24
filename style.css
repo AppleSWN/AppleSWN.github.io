@@ -1,0 +1,132 @@
+
+/* ! Base Style */
+
+body{font-family: 'Inter', sans-serif;font-size: 16px;background-color: #000;}
+
+a{text-decoration: none;}
+
+h1, h2, h3, h4, h5, p{color: #fff; padding-bottom: 30px;}
+
+.big-text{font-size: 70px;font-weight: 900;}
+.med-text{font-size: 40px;}
+.normal-text{font-size: 20px;}
+.small-text{font-size: 14px;}
+
+.intro-text{text-transform: uppercase; font-size: 20px;font-weight: bold;}
+
+.button{padding: 18px 20px;background: #316bff;color: #fff;display: inline-block;border-radius: 4px;}
+
+
+
+
+@media (max-width: 1092px) {
+    .big-text{font-size: 40px;} 
+    /* 40px */
+}
+
+
+
+
+/* ! Header */
+
+.header{
+    /* border: 1px solid red; */ /*cool ASF---*/
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%; /*left:0*/
+    /* translate: translateX(-50%); */
+    translate: -50%;
+    padding: 30px;
+    display: flex;
+    /* background: #000; */
+    max-width: 1350px;
+}
+
+.appleL{
+    width: 55px;
+    height: 50px;
+}
+
+
+/*.logo{ border: 1px solid red;} */ /*COol ASF---*/
+.logo{z-index: 1;}
+
+
+.menu{
+    /* border: 1px solid red; */ /*COOL ASF---*/
+    width: 100%;
+    z-index: 0;
+}
+
+.menu li{display: inline-block;}
+.menu li a{color: #fff; padding: 15px; display: block;}
+
+.hamburger{display: none;}
+
+
+/*.cta{ border: 1px solid red;} */ /*COOL ASF---*/
+
+@media (max-width: 1092px){
+    
+    .cta{
+        display: none;
+    }
+    
+    
+    .menu{position: absolute; top: 0; right: -100%; background: rgb(43, 4, 4); height: 100vh;padding-top: 80px;}
+    .menu li{display: block;}
+    .menu li a{padding: 25px 40px;font-size: 60px;} /*padd 15px 30px     fs20px*/
+    
+    .menu--open{right: 0%;}
+
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 40px;
+        right: 30px;
+        
+    }
+    .hamburger span{background: whitesmoke; height: 3px; width: 100%;display: block;margin-bottom: 5px;}
+}
+
+
+
+
+/* ! Hero */
+.hero{
+    /* background: #000; */
+    height: 600px;
+    display: flex; width: 100%;align-items: center;
+    background:  linear-gradient(210deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+     url("BlackAppleImage.png") no-repeat center center; /*217deg*/
+    background-size: cover;
+}
+
+.hero__content{
+    /* border: 1px solid red; */ /*COOL ASF---*/
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.hero__content h1,
+.hero__content p{color: #000;} /*#fff*/
+
+
+
+
+
+
+
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
